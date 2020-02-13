@@ -1,0 +1,92 @@
+.zadach{
+  
+    font-family: Roboto Black;
+    font-size: 30px;
+    color: #000;
+  }
+  
+  .blok2{
+    padding-top: 15px;
+    padding-left: 15px;
+    vertical-align: middle;
+    margin-top: -5px;
+    background-color:#e6433c; 
+    height: 77px;
+    width: 499px;
+    font-size: 24px;
+    font-family: Roboto Black;
+    color: #000;
+    
+  }
+  
+  .blok3{
+    margin-top: 35px;
+    font-size: 20px;
+    font-family: Roboto Regular;
+    color: #000;
+  }
+  
+  .knopka_2{
+    
+    text-align:center; 
+    font-size: 16px;
+    font-family: Roboto Regular;
+    height: 42px;
+    width:209px;
+    color: #fff; 
+    text-decoration: none; 
+    user-select: none; 
+    background: rgb(230,67,60); 
+    border-radius: 1px;
+    box-shadow:0 5px 4px rgba(0, 0, 0, .3),
+     -23px 0 20px -23px rgba(0, 0, 0, .8),
+     23px 0 20px -23px rgba(0, 0, 0, .8),
+     0 0 40px rgba(0, 0, 0, .1) inset;
+    padding: .7em 1.5em; 
+    outline: none; 
+  } 
+  a.knopka_2:hover {
+   background: rgb(232,95,76);
+   color:#2c3a59;
+   } 
+  a.knopka_2:active { 
+    background: rgb(219,91,85); 
+  }  
+  
+  .button_zakaz{
+    margin-top: 45px;
+  }
+  
+  .about {
+    background: rgb(248, 248, 248);
+  }
+  
+  .flex-center  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box {
+    width: 400px;
+    height: 130px;
+    color: #fff;
+    border-radius: 4px;
+    background-color:rgb(230,67,60);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+  } 
+  .bubble {
+    position: relative;
+  }
+  
+  .bubble::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 40px;
+    height: 20px;
+    width: 20px;
+    background: inherit;
+    transform: rotate(45deg);
+    border-radius: 2px;
+  }
