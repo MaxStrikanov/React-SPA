@@ -1,0 +1,40 @@
+.title {
+    padding: 10px 0;
+  }
+  
+  .com-prof,
+  .socialList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .socialList {
+    display: flex;
+    align-items: center;
+  }
+  
+  .com-prof-item,
+  .socialItem {
+    margin: 0 10px;
+  }
+  
+  .socialLink {
+    display: block;
+  }
+  
+  .dcom-prof-link {
+    display: inline-block;
+    color: #23C9FF;
+    margin-bottom: 5px;
+  }
+  
+  .dcom-prof-link:hover {
+    text-decoration: underline;
+  }
+  .slider{
+    align-content: center;
+  }
+  .item {
+    align-items: center;
+  }
+  

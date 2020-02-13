@@ -1,0 +1,361 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+body * {
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+}
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+  border-bottom: 1px solid #C0C0C0;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo {
+  background-color: white;
+  text-align: center;
+}
+
+.navigation {
+  
+  background-color: #2c3a59;
+  box-shadow: 1px 1px 10px #777;
+}
+
+.nav {
+  margin-top: 14px;
+  font-size: 18px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav li {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  flex: 1 0 100%;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 0 15px 30px;
+  box-sizing: border-box;
+  border-left: 3px solid transparent;
+  font-weight: 600;
+}
+
+.nav a:hover,
+.nav a.active {
+  background: rgb(232,95,76);
+  color:#fff;
+  background-color:#e6433c;
+  border-color: #EBEBEB;
+}
+.input-name {
+  margin-left: 20px;
+  margin-top: 15px;
+  border: 1px solid #e6433c;
+}
+
+.form-auth {
+  margin-left: 7px;
+  width: 200px;
+  border-top: 5px groove #777;
+  border-radius: 2px;
+}
+
+.btn-enter {
+  margin-left: 20px;
+  margin-top: 15px;
+  text-align:center; 
+  font-size: 16px;
+  font-family: Roboto Regular;
+  height: 40px;
+  width:160px;
+  color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(230,67,60); 
+  border-radius: 1px;
+  box-shadow:0 5px 4px rgba(0, 0, 0, .3),
+     -23px 0 20px -23px rgba(0, 0, 0, .8),
+     23px 0 20px -23px rgba(0, 0, 0, .8),
+     0 0 40px rgba(0, 0, 0, .1) inset;
+  padding: .7em 1.5em; 
+  outline: none; 
+  border: none;
+}
+
+.etn-enter:hover {
+  color: #777; 
+}
+.main {
+  padding: 25px 50px;
+  position: relative;
+}
+
+input {
+    font-size: 14px;
+    border: 1px solid red;
+}
+.title {
+  padding: 10px 0;
+}
+
+.com-prof,
+.socialList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.socialList {
+  display: flex;
+  align-items: center;
+}
+
+.com-prof-item,
+.socialItem {
+  margin: 0 10px;
+}
+
+.socialLink {
+  display: block;
+}
+
+.dcom-prof-link {
+  display: inline-block;
+  color: #23C9FF;
+  margin-bottom: 5px;
+}
+
+.dcom-prof-link:hover {
+  text-decoration: underline;
+}
+.slider{
+  align-content: center;
+}
+.item {
+  align-items: center;
+}
+
+.conteiner{
+	width: 720px;
+	height: 220px;
+	float: right;
+	display: flex;	
+}
+.about_h {
+    font-size: 32px;
+    font-family: Roboto Regular;
+}
+.number-card {
+    font-size: 36px;
+    font-family: Roboto Regular;
+}
+
+.card-conteiner{
+    margin-left: 15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 4px;
+    perspective: 900px;
+    background-color: transparent;
+
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: all .7s;
+    transform-style: preserve-3d;
+}
+.card-conteiner:hover .card{
+    transform: rotateY(-180deg);
+ }
+
+.front{
+    background: linear-gradient(90deg, #0086ff, #0e51b6);
+}
+
+.back{
+    background: linear-gradient(90deg, #ff2a78, #e6433c);
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto Regular;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19),
+                0 6px 6px rgba(0,0,0,0.23);
+    backface-visibility: hidden;            
+}
+
+
+
+.zadach{
+  
+    font-family: Roboto Black;
+    font-size: 30px;
+    color: #000;
+  }
+  
+  .blok2{
+    padding-top: 15px;
+    padding-left: 15px;
+    vertical-align: middle;
+    margin-top: -5px;
+    background-color:#e6433c; 
+    height: 77px;
+    width: 499px;
+    font-size: 24px;
+    font-family: Roboto Black;
+    color: #000;
+    
+  }
+  
+  .blok3{
+    margin-top: 35px;
+    font-size: 20px;
+    font-family: Roboto Regular;
+    color: #000;
+  }
+  
+  .knopka_2{
+    
+    text-align:center; 
+    font-size: 16px;
+    font-family: Roboto Regular;
+    height: 42px;
+    width:209px;
+    color: #fff; 
+    text-decoration: none; 
+    user-select: none; 
+    background: rgb(230,67,60); 
+    border-radius: 1px;
+    box-shadow:0 5px 4px rgba(0, 0, 0, .3),
+     -23px 0 20px -23px rgba(0, 0, 0, .8),
+     23px 0 20px -23px rgba(0, 0, 0, .8),
+     0 0 40px rgba(0, 0, 0, .1) inset;
+    padding: .7em 1.5em; 
+    outline: none; 
+  } 
+  a.knopka_2:hover {
+   background: rgb(232,95,76);
+   color:#2c3a59;
+   } 
+  a.knopka_2:active { 
+    background: rgb(219,91,85); 
+  }  
+  
+  .button_zakaz{
+    margin-top: 45px;
+  }
+  
+  .about {
+    background: rgb(248, 248, 248);
+  }
+  
+  .flex-center  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box {
+    width: 400px;
+    height: 130px;
+    color: #fff;
+    border-radius: 4px;
+    background-color:rgb(230,67,60);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+  } 
+  .bubble {
+    position: relative;
+  }
+  
+  .bubble::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 40px;
+    height: 20px;
+    width: 20px;
+    background: inherit;
+    transform: rotate(45deg);
+    border-radius: 2px;
+  }
+.title {
+    padding: 10px 0;
+  }
+  
+  .com-prof,
+  .socialList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .socialList {
+    display: flex;
+    align-items: center;
+  }
+  
+  .com-prof-item,
+  .socialItem {
+    margin: 0 10px;
+  }
+  
+  .socialLink {
+    display: block;
+  }
+  
+  .dcom-prof-link {
+    display: inline-block;
+    color: #23C9FF;
+    margin-bottom: 5px;
+  }
+  
+  .dcom-prof-link:hover {
+    text-decoration: underline;
+  }
+  .slider{
+    align-content: center;
+  }
+  .item {
+    align-items: center;
+  }
+  
